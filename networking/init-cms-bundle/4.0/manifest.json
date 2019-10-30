@@ -3,7 +3,9 @@
         "Networking\\InitCmsBundle\\NetworkingInitCmsBundle": ["all"]
     },
     "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
+        "config/": "%CONFIG_DIR%/",
+        "serializer/": "%CONFIG_DIR%/",
+        "src/": "%SRC_DIR%/"
     },
     "env": {
         "LOCALE": "en"

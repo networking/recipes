@@ -11,4 +11,3 @@
     4. Update your database <fg=blue>bin/console doctrine:schema:update</> or using the doctrine migrate commands
     5. Use the command networking:initcms:install to install setup the DB install fixtures and create a superuser admin
     6. OR you can use the networking:initcms:data-setup if you just want to install the data structure and fixtures
-
