@@ -1,0 +1,11 @@
+{
+  "bundles": {
+    "Networking\\InitCmsBundle\\NetworkingInitCmsBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/",
+  },
+  "composer-scripts": {
+    "ckeditor:install --clear=drop": "symfony-cmd"
+  }
+}
