@@ -4,7 +4,7 @@
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/",
-        "serializer/": "%CONFIG_DIR%/",
+        "serializer/": "%CONFIG_DIR%/serializer/",
         "src/": "%SRC_DIR%/"
     },
     "env": {
