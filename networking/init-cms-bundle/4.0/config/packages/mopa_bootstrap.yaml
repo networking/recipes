@@ -1,5 +1,5 @@
 mopa_bootstrap:
-    menu: ~
+    menu: null
     form:
         horizontal: false
         error_type: inline
