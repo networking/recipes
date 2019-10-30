@@ -1,0 +1,13 @@
+<bg=blue;fg=white>              </>
+<bg=blue;fg=white> What's next? </>
+<bg=blue;fg=white>              </>
+
+  * The <fg=blue>InitCmsBundle</> imports many configuration files, such as doctrine.yaml, security.yaml etc. In order
+  to ensure your app will work please do the following:
+    1. Check that all files imported via the networking_init_cms.yaml file are not overwritten with a similar
+        configuration file in your /config/packages folder.
+    2. Check that the Page and User entities were copied to the correct entity folder, and are configured correctly
+    3. Back up your database.
+    4. Update your database <fg=blue>bin/console doctrine:schema:update</> or using the doctrine migrate commands
+    5. Use the command networking:initcms:install to install setup the DB install fixtures and create a superuser admin
+    6. OR you can use the networking:initcms:data-setup if you just want to install the data structure and fixtures
