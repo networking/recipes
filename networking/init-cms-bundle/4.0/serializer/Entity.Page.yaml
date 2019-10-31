@@ -75,7 +75,3 @@ App\Entity\Page:
             exclude: true
         contentRoute:
             exclude: true
-        category:
-            accessor:
-                getter: convertCategoryToInteger
-            type: integer
