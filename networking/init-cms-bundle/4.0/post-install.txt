@@ -15,3 +15,4 @@
     6. Use the command networking:initcms:install to install setup the DB install fixtures and create a superuser admin
     7. OR you can use the networking:initcms:data-setup if you just want to install the data structure and fixtures
     8. Enable or copy the security configuration file that is commented out in the networking_init_cms.yaml file
+    9. Set up your managed languages for the lexik translation bundle
