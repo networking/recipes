@@ -21,6 +21,9 @@ imports:
 # Default security configuration
 #    - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/security.yaml" }
 
+framework:
+    templating:      { engines: ['twig'] }
+
 networking_init_cms:
 # Set a cookie in the fronted end for language. If disabled, the URL will be prefixed with the locale
     allow_locale_cookie: true
