@@ -8,7 +8,6 @@ imports:
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/mopa_bootstrap.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/oneup_flysystem.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/oneup_uploader.yaml" }
-    - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/security.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/sonata_admin.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/sonata_block.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/sonata_core.yaml" }
@@ -19,6 +18,8 @@ imports:
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/sonata_user.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/stof_doctrine_extensions.yaml" }
     - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/symfony_cmf_routing_extra.yaml" }
+# Default security configuration
+#    - { resource: "@NetworkingInitCmsBundle/Resources/config/cms/security.yaml" }
 
 networking_init_cms:
     allow_locale_cookie: true
