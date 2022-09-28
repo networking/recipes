@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "recipes": {
+    "networking/init-cms-bundle": [
+      "4.0",
+      "4.4",
+      "5.4"
+    ]
+  },
+  "recipe-conflicts": [],
+  "versions": [],
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/networking/recipes",
+    "origin_template": "{package}:{version}@github.com/networking/recipes:master",
+    "recipe_template": "https://api.github.com/repos/networking/recipes/contents/{package_dotted}.{version}.json"
+  }
+}

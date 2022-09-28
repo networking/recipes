@@ -1,0 +1,26 @@
+{
+  "manifests": {
+    "Networking/init-cms-bundle": {
+      "manifest": {
+        "bundles": {
+          "Networking\\InitCmsBundle\\NetworkingInitCmsBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/",
+          "serializer/": "%CONFIG_DIR%/serializer/",
+          "src/": "%SRC_DIR%/"
+        },
+        "env": {
+          "LOCALE": "en",
+          "DATABASE_DRIVER": "mysql"
+        },
+        "composer-scripts": {
+          "ckeditor:install --clear=drop": "symfony-cmd"
+        }
+      },
+      "ref": "52c4ef3bc8f805b44bda09dd0f3dc5fe7a1826ee"
+    }
+  }
+}
